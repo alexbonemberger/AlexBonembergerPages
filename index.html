@@ -4,11 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AlexBonembergerTest</title>
+    <title>AlexBonembergerPages</title>
     <!--<base href="/" />-->
-    <!--<base href="/index.html" />-->
-    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="Main.styles.css" rel="stylesheet" />
 </head>
@@ -27,28 +26,6 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-
-    <!-- Adicione um div para exibir o caminho base -->
-    <div id="debug-info" style="position: fixed; bottom: 10px; left: 10px; background: #f8f9fa; padding: 10px; border: 1px solid #ddd; font-family: monospace;"></div>
-
-    <script>
-        // Função para obter e exibir o caminho base
-        function displayBasePath() {
-            const basePathElement = document.querySelector('base');
-            const basePath = basePathElement ? basePathElement.getAttribute('href') : "Base path element not found";
-            console.log('Base path:', basePath);
-            const debugInfoDiv = document.getElementById('debug-info');
-            debugInfoDiv.innerText = 'Base path: ' + basePath;
-
-            if (!basePathElement) {
-                console.error("Base path element not found in the document.");
-            }
-        }
-
-        // Chama a função ao carregar a página
-        window.onload = displayBasePath;
-    </script>
-
     <script src="_framework/blazor.webassembly.js"></script>
 </body>
 
