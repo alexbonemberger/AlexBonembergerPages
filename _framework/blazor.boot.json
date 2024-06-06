@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AlexBonembergerMain",
   "resources": {
-    "hash": "sha256-vgF38RMa8AnbAlkrTh0VEX1ROY2ZT3M637xibbvhFIk=",
+    "hash": "sha256-qfauH4sNWl01sfWFSCXIdz9fU3kUI+yupuvmI3W8wm4=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.9itfdamqdh.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "AlexBonembergerMain.wasm": "sha256-ATzYqW4bLjY2brRJmBGOmEg27OvBnDsTe5LmSrTGfjw="
+      "AlexBonembergerMain.wasm": "sha256-WEdgmtpkMmR+zoGihza8WB9APxn5FiU57GqpE/QSs34="
     },
     "pdb": {
-      "AlexBonembergerMain.pdb": "sha256-YrWqBKGZTj+k+fpqd5cauynds/jVrHCatW/qfGUsbGM="
+      "AlexBonembergerMain.pdb": "sha256-xEu+pl72Pyd81TKtik6sQxJ5uykD+1C2Sleb4FozyRg="
     }
   },
   "cacheBootResources": true,
