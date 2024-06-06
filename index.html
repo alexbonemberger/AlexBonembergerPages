@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AlexBonembergerTest</title>
     <!--<base href="/" />-->
-    <base href="/AlexBonembergerPages/" />
+    <!--<base href="/AlexBonembergerPages/" />-->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -27,7 +27,25 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+
+    <!-- Adicione um div para exibir o caminho base -->
+    <div id="debug-info" style="position: fixed; bottom: 10px; left: 10px; background: #f8f9fa; padding: 10px; border: 1px solid #ddd; font-family: monospace;"></div>
+
     <script src="_framework/blazor.webassembly.js"></script>
+
+    <!-- Script para exibir o caminho base -->
+    <script>
+        // Função para obter e exibir o caminho base
+        function displayBasePath() {
+            const basePath = document.querySelector('base').getAttribute('href');
+            console.log('Base path:', basePath);
+            const debugInfoDiv = document.getElementById('debug-info');
+            debugInfoDiv.innerText = 'Base path: ' + basePath;
+        }
+
+        // Chama a função ao carregar a página
+        window.onload = displayBasePath;
+    </script>
 </body>
 
 </html>
